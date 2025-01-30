@@ -10,9 +10,9 @@ html, body {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Fredoka One', Arial, sans-serif; /* Applying the funny font */
   color: white;
-  background-image: url('images-render.jpg'); /* Path to your image */
+  background-image: url('/images/images-render.jpg'); /* Path to your image */
   background-size: cover; /* Ensure the image covers the entire page */
   background-position: center; /* Center the image */
   background-attachment: fixed; /* Make the background image stay fixed when scrolling */
@@ -23,7 +23,7 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark background for text readability */
+  background-color: rgba(255, 105, 180, 0.6); /* Light pink background for header */
 }
 
 header h1 {
@@ -34,15 +34,16 @@ header h1 {
 main {
   padding: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6); /* Dark background for contrast */
+  background-color: rgba(255, 182, 193, 0.7); /* Light pink background for main content */
   max-width: 800px;
   margin: 0 auto;
+  border-radius: 10px; /* Rounded corners for the main content */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 105, 180, 0.7); /* Light pink background for footer */
   color: white;
   position: fixed;
   width: 100%;

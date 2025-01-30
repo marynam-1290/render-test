@@ -10,14 +10,18 @@ html, body {
 }
 
 body {
-  font-family: 'Fredoka One', Arial, sans-serif; /* Applying the funny font */
+  font-family: 'Fredoka One', Arial, sans-serif;
   color: white;
-  background-image: url('images/cats.jpg'); /* Path to your image */
-  background-size: 100% 50%; /* Make the image cover only half the height */
-  background-position: center top; /* Align the image at the top center */
-  background-attachment: fixed; /* Keep the image fixed when scrolling */
-  background-repeat: no-repeat; /* Don't repeat the image */
+  background-color: pink; /* Optional background color for the rest of the body */
   line-height: 1.6;
+}
+
+/* Set the background image in the CSS */
+body {
+  background-image: url('images/cats.jpg'); /* Path to your image */
+  background-size: auto 50%; /* Scale the height of the image to 50% of the viewport height */
+  background-position: center bottom; /* Position the image at the bottom center */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
 }
 
 header {

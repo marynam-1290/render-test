@@ -12,7 +12,7 @@ html, body {
 body {
   font-family: 'Fredoka One', Arial, sans-serif; /* Applying the funny font */
   color: white;
-  background-image: url('/images/images-render.jpg'); /* Path to your image */
+  background-image: url('/images/image-render.jpg'); /* Path to your image */
   background-size: cover; /* Ensure the image covers the entire page */
   background-position: center; /* Center the image */
   background-attachment: fixed; /* Make the background image stay fixed when scrolling */

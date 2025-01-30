@@ -1,19 +1,50 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Make sure the body takes up the full height of the viewport */
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  main {
-    padding: 20px;
-    text-align: center;
-  }
-  
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('images-render.jpg'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the entire page */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Make the background image stay fixed when scrolling */
+  background-repeat: no-repeat; /* Don't repeat the image */
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background for text readability */
+}
+
+header h1 {
+  font-size: 3em;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark background for contrast */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

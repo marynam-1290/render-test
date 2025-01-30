@@ -20,6 +20,7 @@ body {
   background-size: contain; /* Ensures the image is contained, not stretched */
   background-position: center bottom; /* Center the image horizontally and position at the bottom */
   background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  padding-bottom: 80px; /* Add padding to the bottom to make space for the menu */
 }
 
 header {
@@ -59,6 +60,7 @@ footer {
   width: 100%;
   background-color: rgba(255, 105, 180, 0.8); /* Light pink background for menu */
   text-align: center;
+  z-index: 10; /* Ensure the menu stays above other content */
 }
 
 .bottom-menu ul {

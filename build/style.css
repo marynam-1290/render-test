@@ -12,7 +12,7 @@ html, body {
 body {
   font-family: 'Fredoka One', Arial, sans-serif; /* Applying the funny font */
   color: white;
-  background-image: url('images/image-render.jpg'); /* Path to your image */
+  background-image: url('images/cats.jpg'); /* Path to your image */
   background-size: 100% 50%; /* Make the image cover only half the height */
   background-position: center top; /* Align the image at the top center */
   background-attachment: fixed; /* Keep the image fixed when scrolling */
